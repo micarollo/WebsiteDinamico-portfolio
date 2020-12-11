@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="navegador">
+        <div class="n1">
+            <p>MICAELA BELEN ROLLO</p>
+        </div>
+        <div class="n2">
+            <nav>
+                <a href="index.html">INICIO</a>
+                <a href="perfil.html">PERFIL</a>
+                <a href="probando.html #quieresentrenar">¿QUIERES ENTRENAR?</a>
+                <a href="form.html">CONTACTO</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="pagcontacto">
+
+        <div class="titulo">
+            <h2>CONTACTO</h2>
+            <hr>
+        </div>
+        
+        <div class="contenedorcontacto">
+            <div class="contactodatos">
+                <p>Barcelona, España</p>
+                <p>rollomicaela@gmail.com</p>
+                <p>656849077</p>
+            </div>
+
+            <div class="formulario">
+                <form action="/signup" method="post">
+                    <div class="campo">
+                        <input type="text" id="fname" name="fname" placeholder="Escribe tu nombre">
+                    </div>
+                    
+                    <div class="campo">
+                        <input type="email" id="email" name="email" placeholder="Escribe tu email">
+                    </div>
+                    
+                    <div class="quieroinfo">
+                        <p>Quiero información sobre:</p>
+                        <div class="elegir">
+                            <input type="radio" id="personalizado" name="nivel" value="personalizado">
+                            <label for="junior">Entrenamiento personalizado</label><br>
+                        
+                            <input type="radio" id="fisico-cognitivo" name="nivel" value="fisico-cognitivo">
+                            <label for="semisenior">Entrenamiento fisico-cognitivo</label><br>
+                            
+                            <input type="radio" id="deporte" name="nivel" value="deporte">
+                            <label for="senior">Entrenamiento especializado en mi deporte</label>
+                        </div>
+                    </div>
+                    
+                    <div class="textarea">
+                        <textarea name="message" rows="10" cols="50"></textarea>
+                    </div>
+
+                    <button type=”button”>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
